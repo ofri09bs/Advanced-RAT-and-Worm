@@ -16,12 +16,14 @@
 
 **Project HYDRAT** is a Proof-of-Concept (PoC) malware that combines a functional **Snake Game** with a sophisticated **Remote Access Trojan (RAT)**.
 The tool uses **Discord** as a Command & Control (C2) server, making traffic blend in with legitimate HTTPS requests.
+Additionally, it features an autonomous **Worm Module** capable of spreading through physical media (USB drives) using advanced LNK hijacking techniques.
 
 ### Key Features
-* **Trojanized Game:** A legitimate Pygame-based Snake game runs in the foreground.
-* **Persistence:** Automatically installs to the Registry (`HKCU/Run`) to survive reboots.
-* **Process Spawning:** The malware spawns a hidden, independent process for the RAT payload.
-* **Targeting System:** Commands can be directed to a specific victim (`User@PC`) or all infected machines (`all`).
+* **🎭 Trojanized Game:** A legitimate Pygame-based Snake game runs in the foreground to distract the user.
+* **🔄 Persistence:** Automatically installs to the Windows Registry (`HKCU/Run`) to ensure execution on every system reboot.
+* **👻 Process Spawning:** The malware uses a "Watchdog" architecture to spawn a hidden, independent process for the payload, ensuring resilience even if the game is closed.
+* **💾 USB Worm Propagation:** Automatically detects inserted USB drives. It hides legitimate files and replaces them with malicious **LNK Shortcuts** that mimic the original files (using extracted icons), ensuring the malware spreads to new machines when users access their documents.
+* **🎯 Targeting System:** C2 Commands can be directed to a specific victim (`User@PC`) or broadcast to all infected machines (`all`).
 
 ---
 
