@@ -1,4 +1,4 @@
-# 🐍 Project HYDRAT: Discord-Based RAT & USB Worm
+# 🐍 Discord-Based RAT & USB Worm
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Discord](https://img.shields.io/badge/C2-Discord_Bot-5865F2.svg)
 ![Security](https://img.shields.io/badge/Type-Educational_Malware-red.svg)
