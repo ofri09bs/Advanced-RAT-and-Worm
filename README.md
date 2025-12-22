@@ -13,7 +13,7 @@
 
 ## 📖 Overview
 
-**Project HYDRAT** is a Proof-of-Concept (PoC) malware that combines a functional **Snake Game** with a sophisticated **Remote Access Trojan (RAT)**.
+This project is a malware that combines a functional **Snake Game** with a sophisticated **Remote Access Trojan (RAT)**.
 The tool uses **Discord** as a Command & Control (C2) server, making traffic blend in with legitimate HTTPS requests.
 Additionally, it features an autonomous **Worm Module** capable of spreading through physical media (USB drives) using advanced LNK hijacking techniques.
 
