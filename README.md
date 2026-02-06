@@ -2,11 +2,10 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Discord](https://img.shields.io/badge/C2-Discord_Bot-5865F2.svg)
 ![Security](https://img.shields.io/badge/Type-Educational_Malware-red.svg)
-
-> **⚠️ DISCLAIMER: EDUCATIONAL PURPOSE ONLY**
+## **⚠️ DISCLAIMER: EDUCATIONAL PURPOSE ONLY**
 >
 > This project was developed for **academic research and Cyber Security training** (Red Teaming simulations).
-> The code demonstrates how Trojan horses and Remote Access Tools (RATs) operate.
+> The code demonstrates how Trojans and Remote Access Tools (RATs) operate.
 > **Using this software on computers without explicit permission is illegal.** The developer assumes no liability for misuse.
 
 ---
@@ -47,7 +46,7 @@ The bot listens for commands in the designated Discord channel.
 | **`!keylogger_start`** | `!keylogger_start User@PC` | Start recording keystrokes in the background. |
 | **`!keylogger_stop`** | `!keylogger_stop User@PC` | Stop recording and upload the log file. |
 
-### 👻 Trolling & Harassment (Pranks)
+### 👻 Trolling & Pranks
 | Command | Usage Example | Description |
 | :--- | :--- | :--- |
 | **`!msgbox`** | `!msgbox User@PC Hello!` | Display a Windows Message Box on screen. |
@@ -64,10 +63,3 @@ The bot listens for commands in the designated Discord channel.
 | **`!shutdown`** | `!shutdown User@PC` | Shut down the computer immediately. |
 
 ---
-
-## 🚀 Installation & Build
-
-### 1. Install Dependencies
-Ensure all required Python libraries are installed:
-```bash
-pip install -r requirements.txt
